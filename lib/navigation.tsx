@@ -36,7 +36,7 @@ export type NavigationDropdown = {
 
 export const NAVIGATION: NavigationButton[] = [
     {
-        label: 'Pilots',
+        label: 'Stats',
         icon: <AirplanemodeActive/>,
         dropdown: {
             buttons: [
@@ -54,7 +54,7 @@ export const NAVIGATION: NavigationButton[] = [
         },
     },
     {
-        label: 'Controllers',
+        label: 'Live Data',
         icon: <Radar/>,
         dropdown: {
             buttons: [
@@ -87,7 +87,7 @@ export const NAVIGATION: NavigationButton[] = [
         },
     },
     {
-        label: 'Publications',
+        label: 'Graphs',
         link: '/publications/downloads',
         icon: <FileOpen/>,
     },
